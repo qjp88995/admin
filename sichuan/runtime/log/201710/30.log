@@ -1,0 +1,136 @@
+---------------------------------------------------------------
+[ 2017-10-30T11:58:38+08:00 ] 127.0.0.1 127.0.0.1 GET /v/content/article/list
+[ info ] sichuan.admin.com/v/content/article/list [运行时间：0.013961s][吞吐率：71.63req/s] [内存消耗：523.15kb] [文件加载：54]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'sichuan.admin.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/62.0.3202.62 Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'content',
+  'article' => 'list',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/sichuan/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/calf/admin/sichuan/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(/home/calf/admin/sichuan/application/../runtime/temp/370257fbb6496060516021e5a5b2c2ec.php): failed to open stream: Permission denied[/home/calf/admin/thinkphp/library/think/template/driver/File.php:32]
+---------------------------------------------------------------
+[ 2017-10-30T11:58:38+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] sichuan.admin.com/favicon.ico [运行时间：0.014926s][吞吐率：67.00req/s] [内存消耗：522.95kb] [文件加载：54]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'sichuan.admin.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/62.0.3202.62 Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://sichuan.admin.com/v/content/article/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/sichuan/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/calf/admin/sichuan/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(/home/calf/admin/sichuan/application/../runtime/temp/370257fbb6496060516021e5a5b2c2ec.php): failed to open stream: Permission denied[/home/calf/admin/thinkphp/library/think/template/driver/File.php:32]
+---------------------------------------------------------------
+[ 2017-10-30T11:58:40+08:00 ] 127.0.0.1 127.0.0.1 GET /v/content/article/list
+[ info ] sichuan.admin.com/v/content/article/list [运行时间：0.007568s][吞吐率：132.14req/s] [内存消耗：523.16kb] [文件加载：54]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'sichuan.admin.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/62.0.3202.62 Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'content',
+  'article' => 'list',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/sichuan/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/calf/admin/sichuan/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(/home/calf/admin/sichuan/application/../runtime/temp/370257fbb6496060516021e5a5b2c2ec.php): failed to open stream: Permission denied[/home/calf/admin/thinkphp/library/think/template/driver/File.php:32]
+---------------------------------------------------------------
+[ 2017-10-30T11:58:40+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] sichuan.admin.com/favicon.ico [运行时间：0.006808s][吞吐率：146.89req/s] [内存消耗：521.88kb] [文件加载：54]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'sichuan.admin.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/62.0.3202.62 Chrome/62.0.3202.62 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://sichuan.admin.com/v/content/article/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/sichuan/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/calf/admin/sichuan/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(/home/calf/admin/sichuan/application/../runtime/temp/370257fbb6496060516021e5a5b2c2ec.php): failed to open stream: Permission denied[/home/calf/admin/thinkphp/library/think/template/driver/File.php:32]

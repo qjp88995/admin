@@ -1,0 +1,696 @@
+---------------------------------------------------------------
+[ 2018-02-13T11:33:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/admin/permissions/select
+[ info ] changzhou.admin.com/admin/admin/permissions/select [运行时间：0.089657s][吞吐率：11.15req/s] [内存消耗：1,259.21kb] [文件加载：59]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.permissions',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/64.0.3282.140 Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost:3000/admin/admin/permissions/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=efnm3v89qvmirrfcju4mp43g72',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ RUN ] app\admin\controller\admin\Permissions->select[ /home/calf/admin/changzhou/application/admin/controller/admin/Permissions.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000020s ] 
+[ sql ] [ Mongo ] db.admin_group.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a45b88323d7d8462dcc92c6"}]}).limit(1); [ RunTime:0.000338s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).limit(0); [ RunTime:0.000303s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4320842bac1f24394a69b6"}]}).limit(0); [ RunTime:0.000240s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a431eaf2bac1f24394a69b5"}]}).limit(0); [ RunTime:0.000346s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a437fb983278755701be5a2"}]}).limit(0); [ RunTime:0.000384s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a43804f832787497c46c872"}]}).limit(0); [ RunTime:0.000455s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a43808a83278749707473e2"}]}).limit(0); [ RunTime:0.000364s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4321ae2bac1f24394a69b7"}]}).limit(0); [ RunTime:0.000356s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4382cb832787181816d122"}]}).limit(0); [ RunTime:0.000451s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448dca832787172b0b2f63"}]}).limit(0); [ RunTime:0.000373s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ee0832787153c6c9402"}]}).limit(0); [ RunTime:0.000353s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ef483278715393748d2"}]}).limit(0); [ RunTime:0.000341s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448f00832787172954e222"}]}).limit(0); [ RunTime:0.000336s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ebe832787153b29da03"}]}).limit(0); [ RunTime:0.000345s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ecd832787153d312b52"}]}).limit(0); [ RunTime:0.000360s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490a783278715393748d3"}]}).limit(0); [ RunTime:0.000357s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490e0832787172a1e5582"}]}).limit(0); [ RunTime:0.000344s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490ef8327871538302413"}]}).limit(0); [ RunTime:0.000367s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490ff832787172c28e762"}]}).limit(0); [ RunTime:0.000367s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490c1832787172954e223"}]}).limit(0); [ RunTime:0.000354s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490cf832787172b0b2f64"}]}).limit(0); [ RunTime:0.000349s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da37683278714ac499392"}]}).limit(0); [ RunTime:0.000381s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da3bc83278715473649f2"}]}).limit(0); [ RunTime:0.000365s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da3c783278714ab14ecb2"}]}).limit(0); [ RunTime:0.000353s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da3d283278715a63945e2"}]}).limit(0); [ RunTime:0.000377s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da38e83278714a9360812"}]}).limit(0); [ RunTime:0.000396s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da39d83278714aa00dc92"}]}).limit(0); [ RunTime:0.000438s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da45683278715484ddfb2"}]}).limit(0); [ RunTime:0.000469s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad0d83278714a9360813"}]}).limit(0); [ RunTime:0.000424s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad3483278715a63945e3"}]}).limit(0); [ RunTime:0.000381s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad4683278714a9360814"}]}).limit(0); [ RunTime:0.000303s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad5083278715484ddfb3"}]}).limit(0); [ RunTime:0.000329s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad2783278715a23044e2"}]}).limit(0); [ RunTime:0.000233s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a82591683278736683beb62"}]}).limit(0); [ RunTime:0.000201s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad7283278715473649f3"}]}).limit(0); [ RunTime:0.000255s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daef283278714aa00dc93"}]}).limit(0); [ RunTime:0.000374s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daefe83278714a8761422"}]}).limit(0); [ RunTime:0.000382s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daf0a83278715a23044e3"}]}).limit(0); [ RunTime:0.000375s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daedc83278714ab14ecb3"}]}).limit(0); [ RunTime:0.000386s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daee783278714ac499393"}]}).limit(0); [ RunTime:0.000329s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbdb083278714ac499394"}]}).limit(0); [ RunTime:0.000284s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc07783278714ac499396"}]}).limit(0); [ RunTime:0.000265s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc05f83278714a8761423"}]}).limit(0); [ RunTime:0.000239s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc06c83278714ab14ecb4"}]}).limit(0); [ RunTime:0.000234s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc08383278714a9360815"}]}).limit(0); [ RunTime:0.000189s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc09083278715a23044e4"}]}).limit(0); [ RunTime:0.000178s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbeef83278714aa00dc94"}]}).limit(0); [ RunTime:0.000222s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc09f83278715484ddfb4"}]}).limit(0); [ RunTime:0.000247s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0ae83278715a63945e4"}]}).limit(0); [ RunTime:0.000191s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0c083278714aa00dc95"}]}).limit(0); [ RunTime:0.000183s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0f283278715473649f5"}]}).limit(0); [ RunTime:0.000194s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0fb83278714a8761424"}]}).limit(0); [ RunTime:0.000179s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbf2d83278715473649f4"}]}).limit(0); [ RunTime:0.000187s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc10583278714ab14ecb5"}]}).limit(0); [ RunTime:0.000290s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc11983278714ac499397"}]}).limit(0); [ RunTime:0.000196s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc12c83278714a9360816"}]}).limit(0); [ RunTime:0.000277s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc13e83278715a23044e5"}]}).limit(0); [ RunTime:0.000272s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc14983278715484ddfb5"}]}).limit(0); [ RunTime:0.000194s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbf5783278714ac499395"}]}).limit(0); [ RunTime:0.000696s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc16183278715a63945e5"}]}).limit(0); [ RunTime:0.000258s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc16f83278714aa00dc96"}]}).limit(0); [ RunTime:0.000197s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc18f83278715473649f6"}]}).limit(0); [ RunTime:0.000243s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc19d83278714a8761425"}]}).limit(0); [ RunTime:0.000205s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc1a683278714ab14ecb6"}]}).limit(0); [ RunTime:0.000194s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a8259d583278732770d2a42"}]}).limit(0); [ RunTime:0.000183s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a8259ff8327873278501d62"}]}).limit(0); [ RunTime:0.000177s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a3283278732713f6082"}]}).limit(0); [ RunTime:0.000170s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a4383278734da0c1212"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a5383278736683beb63"}]}).limit(0); [ RunTime:0.000169s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a6083278734db653702"}]}).limit(0); [ RunTime:0.000191s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825aa78327873273716ae2"}]}).limit(0); [ RunTime:0.000195s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825adf8327873275763a72"}]}).limit(0); [ RunTime:0.000256s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825afb83278732770d2a43"}]}).limit(0); [ RunTime:0.000174s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b078327873278501d63"}]}).limit(0); [ RunTime:0.000194s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b1e83278732713f6083"}]}).limit(0); [ RunTime:0.000169s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b368327873275763a73"}]}).limit(0); [ RunTime:0.000223s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b7083278732770d2a44"}]}).limit(0); [ RunTime:0.000177s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b938327873278501d64"}]}).limit(0); [ RunTime:0.000184s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825ba183278732713f6084"}]}).limit(0); [ RunTime:0.000174s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825bb483278736683beb64"}]}).limit(0); [ RunTime:0.000176s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825bbf83278734da0c1213"}]}).limit(0); [ RunTime:0.000173s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825bc983278734db653703"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825c4983278736683beb65"}]}).limit(0); [ RunTime:0.000172s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825c6083278734da0c1214"}]}).limit(0); [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2018-02-13T11:33:29+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/admin/permissions/insert
+[ info ] changzhou.admin.com/admin/admin/permissions/insert [运行时间：0.012987s][吞吐率：77.00req/s] [内存消耗：1,164.78kb] [文件加载：59]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.permissions',
+    2 => 'insert',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/64.0.3282.140 Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost:3000/admin/admin/permissions/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=efnm3v89qvmirrfcju4mp43g72',
+)
+[ info ] [ PARAM ] array (
+  'parent' => '5a825c4983278736683beb65',
+  'type' => 'action',
+  'title' => '修改',
+  'name' => 'update',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ RUN ] app\admin\controller\admin\Permissions->insert[ /home/calf/admin/changzhou/application/admin/controller/admin/Permissions.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000028s ] 
+[ sql ] [ Mongo ] db.admin_group.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a45b88323d7d8462dcc92c6"}]}).limit(1); [ RunTime:0.000374s ]
+[ sql ] [ Mongo ] db.admin_permissions.insert({"parent":"5a825c4983278736683beb65","type":"action","title":"\u4fee\u6539","name":"update"}); [ RunTime:0.000249s ]
+---------------------------------------------------------------
+[ 2018-02-13T11:33:29+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/admin/permissions/select
+[ info ] changzhou.admin.com/admin/admin/permissions/select [运行时间：0.062398s][吞吐率：16.03req/s] [内存消耗：1,260.04kb] [文件加载：59]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.permissions',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/64.0.3282.140 Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost:3000/admin/admin/permissions/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=efnm3v89qvmirrfcju4mp43g72',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ RUN ] app\admin\controller\admin\Permissions->select[ /home/calf/admin/changzhou/application/admin/controller/admin/Permissions.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000020s ] 
+[ sql ] [ Mongo ] db.admin_group.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a45b88323d7d8462dcc92c6"}]}).limit(1); [ RunTime:0.000296s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).limit(0); [ RunTime:0.000239s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4320842bac1f24394a69b6"}]}).limit(0); [ RunTime:0.000183s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a431eaf2bac1f24394a69b5"}]}).limit(0); [ RunTime:0.000188s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a437fb983278755701be5a2"}]}).limit(0); [ RunTime:0.000173s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a43804f832787497c46c872"}]}).limit(0); [ RunTime:0.000164s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a43808a83278749707473e2"}]}).limit(0); [ RunTime:0.000219s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4321ae2bac1f24394a69b7"}]}).limit(0); [ RunTime:0.000203s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4382cb832787181816d122"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448dca832787172b0b2f63"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ee0832787153c6c9402"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ef483278715393748d2"}]}).limit(0); [ RunTime:0.000159s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448f00832787172954e222"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ebe832787153b29da03"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ecd832787153d312b52"}]}).limit(0); [ RunTime:0.000218s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490a783278715393748d3"}]}).limit(0); [ RunTime:0.000195s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490e0832787172a1e5582"}]}).limit(0); [ RunTime:0.000180s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490ef8327871538302413"}]}).limit(0); [ RunTime:0.000170s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490ff832787172c28e762"}]}).limit(0); [ RunTime:0.000162s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490c1832787172954e223"}]}).limit(0); [ RunTime:0.000164s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490cf832787172b0b2f64"}]}).limit(0); [ RunTime:0.000167s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da37683278714ac499392"}]}).limit(0); [ RunTime:0.000169s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da3bc83278715473649f2"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da3c783278714ab14ecb2"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da3d283278715a63945e2"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da38e83278714a9360812"}]}).limit(0); [ RunTime:0.000162s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da39d83278714aa00dc92"}]}).limit(0); [ RunTime:0.000162s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da45683278715484ddfb2"}]}).limit(0); [ RunTime:0.000186s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad0d83278714a9360813"}]}).limit(0); [ RunTime:0.000169s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad3483278715a63945e3"}]}).limit(0); [ RunTime:0.000164s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad4683278714a9360814"}]}).limit(0); [ RunTime:0.000172s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad5083278715484ddfb3"}]}).limit(0); [ RunTime:0.000195s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad2783278715a23044e2"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a82591683278736683beb62"}]}).limit(0); [ RunTime:0.000164s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad7283278715473649f3"}]}).limit(0); [ RunTime:0.000170s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daef283278714aa00dc93"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daefe83278714a8761422"}]}).limit(0); [ RunTime:0.000159s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daf0a83278715a23044e3"}]}).limit(0); [ RunTime:0.000161s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daedc83278714ab14ecb3"}]}).limit(0); [ RunTime:0.000158s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daee783278714ac499393"}]}).limit(0); [ RunTime:0.000159s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbdb083278714ac499394"}]}).limit(0); [ RunTime:0.000256s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc07783278714ac499396"}]}).limit(0); [ RunTime:0.000198s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc05f83278714a8761423"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc06c83278714ab14ecb4"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc08383278714a9360815"}]}).limit(0); [ RunTime:0.000160s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc09083278715a23044e4"}]}).limit(0); [ RunTime:0.000161s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbeef83278714aa00dc94"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc09f83278715484ddfb4"}]}).limit(0); [ RunTime:0.000214s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0ae83278715a63945e4"}]}).limit(0); [ RunTime:0.000196s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0c083278714aa00dc95"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0f283278715473649f5"}]}).limit(0); [ RunTime:0.000164s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0fb83278714a8761424"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbf2d83278715473649f4"}]}).limit(0); [ RunTime:0.000168s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc10583278714ab14ecb5"}]}).limit(0); [ RunTime:0.000169s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc11983278714ac499397"}]}).limit(0); [ RunTime:0.000160s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc12c83278714a9360816"}]}).limit(0); [ RunTime:0.000162s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc13e83278715a23044e5"}]}).limit(0); [ RunTime:0.000158s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc14983278715484ddfb5"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbf5783278714ac499395"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc16183278715a63945e5"}]}).limit(0); [ RunTime:0.000167s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc16f83278714aa00dc96"}]}).limit(0); [ RunTime:0.000162s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc18f83278715473649f6"}]}).limit(0); [ RunTime:0.000161s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc19d83278714a8761425"}]}).limit(0); [ RunTime:0.000162s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc1a683278714ab14ecb6"}]}).limit(0); [ RunTime:0.000169s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a8259d583278732770d2a42"}]}).limit(0); [ RunTime:0.000199s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a8259ff8327873278501d62"}]}).limit(0); [ RunTime:0.000177s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a3283278732713f6082"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a4383278734da0c1212"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a5383278736683beb63"}]}).limit(0); [ RunTime:0.000161s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a6083278734db653702"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825aa78327873273716ae2"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825adf8327873275763a72"}]}).limit(0); [ RunTime:0.000178s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825afb83278732770d2a43"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b078327873278501d63"}]}).limit(0); [ RunTime:0.000182s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b1e83278732713f6083"}]}).limit(0); [ RunTime:0.000297s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b368327873275763a73"}]}).limit(0); [ RunTime:0.000183s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b7083278732770d2a44"}]}).limit(0); [ RunTime:0.000186s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b938327873278501d64"}]}).limit(0); [ RunTime:0.000169s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825ba183278732713f6084"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825bb483278736683beb64"}]}).limit(0); [ RunTime:0.000173s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825bbf83278734da0c1213"}]}).limit(0); [ RunTime:0.000203s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825bc983278734db653703"}]}).limit(0); [ RunTime:0.000175s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825c4983278736683beb65"}]}).limit(0); [ RunTime:0.000169s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825c6083278734da0c1214"}]}).limit(0); [ RunTime:0.000187s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825c898327873278501d65"}]}).limit(0); [ RunTime:0.000165s ]
+---------------------------------------------------------------
+[ 2018-02-13T11:33:43+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/admin/permissions/insert
+[ info ] changzhou.admin.com/admin/admin/permissions/insert [运行时间：0.015747s][吞吐率：63.50req/s] [内存消耗：1,164.78kb] [文件加载：59]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.permissions',
+    2 => 'insert',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/64.0.3282.140 Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost:3000/admin/admin/permissions/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=efnm3v89qvmirrfcju4mp43g72',
+)
+[ info ] [ PARAM ] array (
+  'parent' => '5a825c4983278736683beb65',
+  'type' => 'action',
+  'title' => '删除',
+  'name' => 'delete',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ RUN ] app\admin\controller\admin\Permissions->insert[ /home/calf/admin/changzhou/application/admin/controller/admin/Permissions.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000016s ] 
+[ sql ] [ Mongo ] db.admin_group.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a45b88323d7d8462dcc92c6"}]}).limit(1); [ RunTime:0.000461s ]
+[ sql ] [ Mongo ] db.admin_permissions.insert({"parent":"5a825c4983278736683beb65","type":"action","title":"\u5220\u9664","name":"delete"}); [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2018-02-13T11:33:43+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/admin/permissions/select
+[ info ] changzhou.admin.com/admin/admin/permissions/select [运行时间：0.057787s][吞吐率：17.30req/s] [内存消耗：1,261.20kb] [文件加载：59]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.permissions',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/64.0.3282.140 Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost:3000/admin/admin/permissions/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=efnm3v89qvmirrfcju4mp43g72',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ RUN ] app\admin\controller\admin\Permissions->select[ /home/calf/admin/changzhou/application/admin/controller/admin/Permissions.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000014s ] 
+[ sql ] [ Mongo ] db.admin_group.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a45b88323d7d8462dcc92c6"}]}).limit(1); [ RunTime:0.000310s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).limit(0); [ RunTime:0.000235s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4320842bac1f24394a69b6"}]}).limit(0); [ RunTime:0.000187s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a431eaf2bac1f24394a69b5"}]}).limit(0); [ RunTime:0.000192s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a437fb983278755701be5a2"}]}).limit(0); [ RunTime:0.000205s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a43804f832787497c46c872"}]}).limit(0); [ RunTime:0.000176s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a43808a83278749707473e2"}]}).limit(0); [ RunTime:0.000176s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4321ae2bac1f24394a69b7"}]}).limit(0); [ RunTime:0.000168s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4382cb832787181816d122"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448dca832787172b0b2f63"}]}).limit(0); [ RunTime:0.000174s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ee0832787153c6c9402"}]}).limit(0); [ RunTime:0.000176s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ef483278715393748d2"}]}).limit(0); [ RunTime:0.000167s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448f00832787172954e222"}]}).limit(0); [ RunTime:0.000192s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ebe832787153b29da03"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a448ecd832787153d312b52"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490a783278715393748d3"}]}).limit(0); [ RunTime:0.000177s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490e0832787172a1e5582"}]}).limit(0); [ RunTime:0.000192s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490ef8327871538302413"}]}).limit(0); [ RunTime:0.000179s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490ff832787172c28e762"}]}).limit(0); [ RunTime:0.000168s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490c1832787172954e223"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4490cf832787172b0b2f64"}]}).limit(0); [ RunTime:0.000161s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da37683278714ac499392"}]}).limit(0); [ RunTime:0.000172s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da3bc83278715473649f2"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da3c783278714ab14ecb2"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da3d283278715a63945e2"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da38e83278714a9360812"}]}).limit(0); [ RunTime:0.000188s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da39d83278714aa00dc92"}]}).limit(0); [ RunTime:0.000190s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4da45683278715484ddfb2"}]}).limit(0); [ RunTime:0.000174s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad0d83278714a9360813"}]}).limit(0); [ RunTime:0.000173s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad3483278715a63945e3"}]}).limit(0); [ RunTime:0.000170s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad4683278714a9360814"}]}).limit(0); [ RunTime:0.000168s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad5083278715484ddfb3"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad2783278715a23044e2"}]}).limit(0); [ RunTime:0.000162s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a82591683278736683beb62"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dad7283278715473649f3"}]}).limit(0); [ RunTime:0.000183s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daef283278714aa00dc93"}]}).limit(0); [ RunTime:0.000170s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daefe83278714a8761422"}]}).limit(0); [ RunTime:0.000164s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daf0a83278715a23044e3"}]}).limit(0); [ RunTime:0.000186s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daedc83278714ab14ecb3"}]}).limit(0); [ RunTime:0.000172s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4daee783278714ac499393"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbdb083278714ac499394"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc07783278714ac499396"}]}).limit(0); [ RunTime:0.000170s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc05f83278714a8761423"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc06c83278714ab14ecb4"}]}).limit(0); [ RunTime:0.000185s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc08383278714a9360815"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc09083278715a23044e4"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbeef83278714aa00dc94"}]}).limit(0); [ RunTime:0.000195s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc09f83278715484ddfb4"}]}).limit(0); [ RunTime:0.000177s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0ae83278715a63945e4"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0c083278714aa00dc95"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0f283278715473649f5"}]}).limit(0); [ RunTime:0.000161s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc0fb83278714a8761424"}]}).limit(0); [ RunTime:0.000191s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbf2d83278715473649f4"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc10583278714ab14ecb5"}]}).limit(0); [ RunTime:0.000167s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc11983278714ac499397"}]}).limit(0); [ RunTime:0.000194s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc12c83278714a9360816"}]}).limit(0); [ RunTime:0.000175s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc13e83278715a23044e5"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc14983278715484ddfb5"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dbf5783278714ac499395"}]}).limit(0); [ RunTime:0.000169s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc16183278715a63945e5"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc16f83278714aa00dc96"}]}).limit(0); [ RunTime:0.000203s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc18f83278715473649f6"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc19d83278714a8761425"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a4dc1a683278714ab14ecb6"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a8259d583278732770d2a42"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a8259ff8327873278501d62"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a3283278732713f6082"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a4383278734da0c1212"}]}).limit(0); [ RunTime:0.000168s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a5383278736683beb63"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825a6083278734db653702"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825aa78327873273716ae2"}]}).limit(0); [ RunTime:0.000169s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825adf8327873275763a72"}]}).limit(0); [ RunTime:0.000175s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825afb83278732770d2a43"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b078327873278501d63"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b1e83278732713f6083"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b368327873275763a73"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b7083278732770d2a44"}]}).limit(0); [ RunTime:0.000172s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825b938327873278501d64"}]}).limit(0); [ RunTime:0.000171s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825ba183278732713f6084"}]}).limit(0); [ RunTime:0.000191s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825bb483278736683beb64"}]}).limit(0); [ RunTime:0.000182s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825bbf83278734da0c1213"}]}).limit(0); [ RunTime:0.000165s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825bc983278734db653703"}]}).limit(0); [ RunTime:0.000163s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825c4983278736683beb65"}]}).limit(0); [ RunTime:0.000167s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825c6083278734da0c1214"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825c898327873278501d65"}]}).limit(0); [ RunTime:0.000166s ]
+[ sql ] [ Mongo ] db.admin_permissions.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":"5a825c9783278732713f6085"}]}).limit(0); [ RunTime:0.000162s ]
+---------------------------------------------------------------
+[ 2018-02-13T11:39:55+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/game/puzzle/select
+[ info ] changzhou.admin.com/admin/game/puzzle/select [运行时间：0.014919s][吞吐率：67.03req/s] [内存消耗：1,186.95kb] [文件加载：62]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'game.puzzle',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/64.0.3282.140 Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost:3000/admin/game/puzzle/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=efnm3v89qvmirrfcju4mp43g72',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ RUN ] app\admin\controller\game\Puzzle->select[ /home/calf/admin/changzhou/application/admin/controller/game/Puzzle.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000016s ] 
+[ sql ] [ Mongo ] db.admin_group.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a45b88323d7d8462dcc92c6"}]}).limit(1); [ RunTime:0.000494s ]
+[ sql ] [ Mongo ] db.game_puzzle.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(10); [ RunTime:0.000524s ]
+[ sql ] [ Mongo ] db.count({"count":"game_puzzle","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000313s ]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/game/Puzzle.php:30]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/game/Puzzle.php:31]
+---------------------------------------------------------------
+[ 2018-02-13T11:39:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/admin/group/select
+[ info ] changzhou.admin.com/admin/admin/group/select [运行时间：0.013013s][吞吐率：76.85req/s] [内存消耗：1,112.04kb] [文件加载：57]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.group',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/64.0.3282.140 Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost:3000/admin/admin/admin/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=efnm3v89qvmirrfcju4mp43g72',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ RUN ] app\admin\controller\admin\Group->select[ /home/calf/admin/changzhou/application/admin/controller/admin/Group.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000015s ] 
+[ sql ] [ Mongo ] db.admin_group.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a45b88323d7d8462dcc92c6"}]}).limit(1); [ RunTime:0.000326s ]
+[ sql ] [ Mongo ] db.admin_group.find({"$and":[{"deleteAt":{"$exists":false}}]}).limit(0); [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2018-02-13T11:39:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/admin/admin/select
+[ info ] changzhou.admin.com/admin/admin/admin/select [运行时间：0.018451s][吞吐率：54.20req/s] [内存消耗：1,184.34kb] [文件加载：62]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.admin',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/64.0.3282.140 Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost:3000/admin/admin/admin/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=efnm3v89qvmirrfcju4mp43g72',
+)
+[ info ] [ PARAM ] array (
+  'limit' => 20,
+  'page' => 1,
+  'group' => 
+  array (
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ RUN ] app\admin\controller\admin\Admin->select[ /home/calf/admin/changzhou/application/admin/controller/admin/Admin.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000019s ] 
+[ sql ] [ Mongo ] db.admin_group.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a45b88323d7d8462dcc92c6"}]}).limit(1); [ RunTime:0.000401s ]
+[ sql ] [ Mongo ] db.admin_admin.find({"$and":[{"deleteAt":{"$exists":false}}]}).limit(20); [ RunTime:0.000419s ]
+[ sql ] [ Mongo ] db.count({"count":"admin_admin","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000299s ]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/admin/Admin.php:21]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/admin/Admin.php:22]
+---------------------------------------------------------------
+[ 2018-02-13T11:39:58+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/game/puzzle/select
+[ info ] changzhou.admin.com/admin/game/puzzle/select [运行时间：0.019755s][吞吐率：50.62req/s] [内存消耗：1,186.95kb] [文件加载：62]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'game.puzzle',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/64.0.3282.140 Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost:3000/admin/game/puzzle/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=efnm3v89qvmirrfcju4mp43g72',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ RUN ] app\admin\controller\game\Puzzle->select[ /home/calf/admin/changzhou/application/admin/controller/game/Puzzle.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000019s ] 
+[ sql ] [ Mongo ] db.admin_group.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a45b88323d7d8462dcc92c6"}]}).limit(1); [ RunTime:0.000378s ]
+[ sql ] [ Mongo ] db.game_puzzle.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(10); [ RunTime:0.000450s ]
+[ sql ] [ Mongo ] db.count({"count":"game_puzzle","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000267s ]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/game/Puzzle.php:30]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/game/Puzzle.php:31]
+---------------------------------------------------------------
+[ 2018-02-13T12:48:49+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/admin/group/select
+[ info ] changzhou.admin.com/admin/admin/group/select [运行时间：0.011590s][吞吐率：86.28req/s] [内存消耗：916.85kb] [文件加载：52]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.group',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/64.0.3282.140 Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost:3000/admin/admin/admin/list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=efnm3v89qvmirrfcju4mp43g72',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

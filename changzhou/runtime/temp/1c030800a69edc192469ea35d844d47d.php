@@ -1,0 +1,31 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:66:"/home/calf/admin/changzhou/application/game/view/puzzle/index.html";i:1516169819;}*/ ?>
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="/static/pintu/manifest.json">
+    <link rel="shortcut icon" href="/static/pintu/favicon.ico">
+    <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+    <link href="http://cdn.webfont.youziku.com/webfonts/nomal/108067/47569/5a5072f2f629db0950b63b96.css" rel="stylesheet" />
+    <title>拼图游戏</title>
+    <script>
+    window._config = { _prefix: { api: "http://changzhou.admin.com/game", link: "/game" } },
+        function() { var n = function() { var n = document.documentElement;
+                n.style.fontSize = n.getBoundingClientRect().width / 10 + "px" };
+            window.addEventListener("resize", n, !1), n() }()
+    </script>
+    <link href="/static/css/puzzle.css" rel="stylesheet">
+</head>
+
+<body style="width:100vw;height:100vh;">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="text/javascript" src="/static/js/puzzle.js"></script>
+</body>
+
+</html>

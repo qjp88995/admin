@@ -1,0 +1,151 @@
+---------------------------------------------------------------
+[ 2017-12-21T17:45:03+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] hunan.admin.com/ [运行时间：0.019364s][吞吐率：51.64req/s] [内存消耗：505.84kb] [文件加载：53]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hunan.admin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/hunan/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/calf/admin/hunan/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-21T17:45:29+08:00 ] 127.0.0.1 127.0.0.1 GET /v/classroom/exam/edit/59cca1be50af9831712c3b55
+[ info ] hunan.admin.com/v/classroom/exam/edit/59cca1be50af9831712c3b55 [运行时间：0.004496s][吞吐率：222.42req/s] [内存消耗：501.38kb] [文件加载：53]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hunan.admin.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'classroom',
+  'exam' => 'edit',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/hunan/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/calf/admin/hunan/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-21T17:45:31+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ info ] hunan.admin.com/login [运行时间：0.008402s][吞吐率：119.02req/s] [内存消耗：499.99kb] [文件加载：53]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hunan.admin.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/hunan/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/calf/admin/hunan/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-21T17:54:40+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] hunan.admin.com/ [运行时间：0.007656s][吞吐率：130.61req/s] [内存消耗：499.96kb] [文件加载：53]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hunan.admin.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/hunan/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/calf/admin/hunan/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-21T17:55:11+08:00 ] 127.0.0.1 127.0.0.1 GET /v/venue/exhibit/list
+[ info ] hunan.admin.com/v/venue/exhibit/list [运行时间：0.006719s][吞吐率：148.83req/s] [内存消耗：501.62kb] [文件加载：53]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hunan.admin.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'venue',
+  'exhibit' => 'list',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/hunan/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/calf/admin/hunan/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,1408 @@
+---------------------------------------------------------------
+[ 2017-12-16T10:31:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/user/permissions/menu
+[ info ] changzhou.admin.com/admin/user/permissions/menu [运行时间：0.078957s][吞吐率：12.67req/s] [内存消耗：577.71kb] [文件加载：47]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.permissions',
+    2 => 'menu',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\user\Permissions->menu[ /home/calf/admin/changzhou/application/admin/controller/user/Permissions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-16T10:31:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/user/permissions/menu
+[ info ] changzhou.admin.com/admin/user/permissions/menu [运行时间：0.006969s][吞吐率：143.49req/s] [内存消耗：561.53kb] [文件加载：47]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.permissions',
+    2 => 'menu',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\user\Permissions->menu[ /home/calf/admin/changzhou/application/admin/controller/user/Permissions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-16T10:32:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/user/permissions/menu
+[ info ] changzhou.admin.com/admin/user/permissions/menu [运行时间：0.013025s][吞吐率：76.78req/s] [内存消耗：561.53kb] [文件加载：47]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.permissions',
+    2 => 'menu',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\user\Permissions->menu[ /home/calf/admin/changzhou/application/admin/controller/user/Permissions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-16T10:32:14+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/user/permissions/menu
+[ info ] changzhou.admin.com/admin/user/permissions/menu [运行时间：0.006366s][吞吐率：157.08req/s] [内存消耗：561.53kb] [文件加载：47]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.permissions',
+    2 => 'menu',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\user\Permissions->menu[ /home/calf/admin/changzhou/application/admin/controller/user/Permissions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-16T10:32:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/category/select
+[ info ] changzhou.admin.com/admin/museum/category/select [运行时间：0.043369s][吞吐率：23.06req/s] [内存消耗：878.09kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Category->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] 
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.001329s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a325ef283278716e108e262"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000216s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a333861832787179207e182"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000188s ]
+---------------------------------------------------------------
+[ 2017-12-16T10:32:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/select
+[ info ] changzhou.admin.com/admin/museum/exhibition/select [运行时间：0.042029s][吞吐率：23.79req/s] [内存消耗：1,699.66kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php:53]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php:54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000066s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(10); [ RunTime:0.001965s ]
+[ sql ] [ Mongo ] db.count({"count":"museum_exhibition","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[ 2017-12-16T10:50:55+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/update
+[ info ] changzhou.admin.com/admin/museum/exhibition/update [运行时间：0.019741s][吞吐率：50.66req/s] [内存消耗：776.62kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'update',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '58',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  '_id' => 
+  array (
+    '$oid' => '5a3376b58327871da97e9eb2',
+  ),
+  'isShow' => false,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->update[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000090s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.update({"$and":[{"_id":{"$oid":"5a3376b58327871da97e9eb2"}}]},{"$set":{"isShow":false,"updateAt":1513392655}}); [ RunTime:0.001675s ]
+---------------------------------------------------------------
+[ 2017-12-16T10:50:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/update
+[ info ] changzhou.admin.com/admin/museum/exhibition/update [运行时间：0.011696s][吞吐率：85.50req/s] [内存消耗：772.68kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'update',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '57',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  '_id' => 
+  array (
+    '$oid' => '5a3376b58327871da97e9eb2',
+  ),
+  'isShow' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->update[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000028s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.update({"$and":[{"_id":{"$oid":"5a3376b58327871da97e9eb2"}}]},{"$set":{"isShow":true,"updateAt":1513392656}}); [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:18+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/update
+[ info ] changzhou.admin.com/admin/museum/exhibition/update [运行时间：0.009987s][吞吐率：100.13req/s] [内存消耗：772.67kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'update',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '58',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  '_id' => 
+  array (
+    '$oid' => '5a3377dd832787178a6c37c2',
+  ),
+  'isShow' => false,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->update[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000092s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.update({"$and":[{"_id":{"$oid":"5a3377dd832787178a6c37c2"}}]},{"$set":{"isShow":false,"updateAt":1513393818}}); [ RunTime:0.000965s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/update
+[ info ] changzhou.admin.com/admin/museum/exhibition/update [运行时间：0.013147s][吞吐率：76.06req/s] [内存消耗：772.68kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'update',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '57',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  '_id' => 
+  array (
+    '$oid' => '5a3377dd832787178a6c37c2',
+  ),
+  'isShow' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->update[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000028s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.update({"$and":[{"_id":{"$oid":"5a3377dd832787178a6c37c2"}}]},{"$set":{"isShow":true,"updateAt":1513393819}}); [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/update
+[ info ] changzhou.admin.com/admin/museum/exhibition/update [运行时间：0.007595s][吞吐率：131.66req/s] [内存消耗：772.69kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'update',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '58',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  '_id' => 
+  array (
+    '$oid' => '5a3376b58327871da97e9eb2',
+  ),
+  'isShow' => false,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->update[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000026s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.update({"$and":[{"_id":{"$oid":"5a3376b58327871da97e9eb2"}}]},{"$set":{"isShow":false,"updateAt":1513393820}}); [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:21+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/update
+[ info ] changzhou.admin.com/admin/museum/exhibition/update [运行时间：0.009941s][吞吐率：100.59req/s] [内存消耗：772.66kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'update',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '57',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  '_id' => 
+  array (
+    '$oid' => '5a3376b58327871da97e9eb2',
+  ),
+  'isShow' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->update[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000021s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.update({"$and":[{"_id":{"$oid":"5a3376b58327871da97e9eb2"}}]},{"$set":{"isShow":true,"updateAt":1513393821}}); [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/select
+[ info ] changzhou.admin.com/admin/museum/exhibition/select [运行时间：0.015362s][吞吐率：65.10req/s] [内存消耗：750.52kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'selectAll' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000101s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.002403s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibit/select
+[ info ] changzhou.admin.com/admin/museum/exhibit/select [运行时间：0.014709s][吞吐率：67.99req/s] [内存消耗：777.65kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibit',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 20,
+  'exhibition' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibit->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibit.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibit.php:52]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibit.php:53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000024s ] 
+[ sql ] [ Mongo ] db.museum_exhibit.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(20); [ RunTime:0.001299s ]
+[ sql ] [ Mongo ] db.count({"count":"museum_exhibit","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:28+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/category/select
+[ info ] changzhou.admin.com/admin/museum/category/select [运行时间：0.010381s][吞吐率：96.33req/s] [内存消耗：753.20kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\museum\Category->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000027s ] 
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000400s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a325ef283278716e108e262"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000327s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a333861832787179207e182"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:29+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/category/select
+[ info ] changzhou.admin.com/admin/museum/category/select [运行时间：0.011157s][吞吐率：89.63req/s] [内存消耗：752.20kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Category->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000022s ] 
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000344s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a325ef283278716e108e262"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000276s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a333861832787179207e182"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:29+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/select
+[ info ] changzhou.admin.com/admin/museum/exhibition/select [运行时间：0.010395s][吞吐率：96.20req/s] [内存消耗：773.59kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php:53]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php:54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000020s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(10); [ RunTime:0.000399s ]
+[ sql ] [ Mongo ] db.count({"count":"museum_exhibition","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:32+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/select
+[ info ] changzhou.admin.com/admin/museum/exhibition/select [运行时间：0.006987s][吞吐率：143.12req/s] [内存消耗：750.52kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'selectAll' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000017s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:32+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibit/select
+[ info ] changzhou.admin.com/admin/museum/exhibit/select [运行时间：0.007635s][吞吐率：130.98req/s] [内存消耗：773.88kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibit',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 20,
+  'exhibition' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibit->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibit.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibit.php:52]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibit.php:53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000016s ] 
+[ sql ] [ Mongo ] db.museum_exhibit.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(20); [ RunTime:0.000411s ]
+[ sql ] [ Mongo ] db.count({"count":"museum_exhibit","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:33+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/category/select
+[ info ] changzhou.admin.com/admin/museum/category/select [运行时间：0.008399s][吞吐率：119.06req/s] [内存消耗：753.20kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\museum\Category->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000022s ] 
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000524s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a325ef283278716e108e262"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000391s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a333861832787179207e182"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/activity/category/select
+[ info ] changzhou.admin.com/admin/activity/category/select [运行时间：0.015646s][吞吐率：63.91req/s] [内存消耗：755.02kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'activity.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+)
+[ info ] [ RUN ] app\admin\controller\activity\Category->select[ /home/calf/admin/changzhou/application/admin/controller/activity/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000025s ] 
+[ sql ] [ Mongo ] db.activity_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/activity/activity/select
+[ info ] changzhou.admin.com/admin/activity/activity/select [运行时间：0.022078s][吞吐率：45.29req/s] [内存消耗：778.04kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'activity.activity',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\activity\Activity->select[ /home/calf/admin/changzhou/application/admin/controller/activity/Activity.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/activity/Activity.php:53]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/activity/Activity.php:54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000106s ] 
+[ sql ] [ Mongo ] db.activity_activity.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(10); [ RunTime:0.000850s ]
+[ sql ] [ Mongo ] db.count({"count":"activity_activity","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:39+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/activity/category/select
+[ info ] changzhou.admin.com/admin/activity/category/select [运行时间：0.006947s][吞吐率：143.95req/s] [内存消耗：752.08kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'activity.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\activity\Category->select[ /home/calf/admin/changzhou/application/admin/controller/activity/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000017s ] 
+[ sql ] [ Mongo ] db.activity_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:40+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/activity/category/select
+[ info ] changzhou.admin.com/admin/activity/category/select [运行时间：0.007666s][吞吐率：130.44req/s] [内存消耗：751.13kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'activity.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+)
+[ info ] [ RUN ] app\admin\controller\activity\Category->select[ /home/calf/admin/changzhou/application/admin/controller/activity/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000018s ] 
+[ sql ] [ Mongo ] db.activity_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:40+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/activity/activity/select
+[ info ] changzhou.admin.com/admin/activity/activity/select [运行时间：0.010462s][吞吐率：95.58req/s] [内存消耗：774.24kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'activity.activity',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\activity\Activity->select[ /home/calf/admin/changzhou/application/admin/controller/activity/Activity.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/activity/Activity.php:53]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/activity/Activity.php:54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000020s ] 
+[ sql ] [ Mongo ] db.activity_activity.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(10); [ RunTime:0.000324s ]
+[ sql ] [ Mongo ] db.count({"count":"activity_activity","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:10:43+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/activity/category/select
+[ info ] changzhou.admin.com/admin/activity/category/select [运行时间：0.005664s][吞吐率：176.55req/s] [内存消耗：752.08kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'activity.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\activity\Category->select[ /home/calf/admin/changzhou/application/admin/controller/activity/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000014s ] 
+[ sql ] [ Mongo ] db.activity_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:25:21+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/select
+[ info ] changzhou.admin.com/admin/museum/exhibition/select [运行时间：0.013547s][吞吐率：73.82req/s] [内存消耗：773.57kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php:53]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php:54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000028s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(10); [ RunTime:0.000658s ]
+[ sql ] [ Mongo ] db.count({"count":"museum_exhibition","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:25:21+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/category/select
+[ info ] changzhou.admin.com/admin/museum/category/select [运行时间：0.018526s][吞吐率：53.98req/s] [内存消耗：752.21kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Category->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000109s ] 
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000829s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a325ef283278716e108e262"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000386s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a333861832787179207e182"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:25:23+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/select
+[ info ] changzhou.admin.com/admin/museum/exhibition/select [运行时间：0.006315s][吞吐率：158.35req/s] [内存消耗：750.52kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'selectAll' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000018s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:25:23+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibit/select
+[ info ] changzhou.admin.com/admin/museum/exhibit/select [运行时间：0.008523s][吞吐率：117.33req/s] [内存消耗：773.88kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibit',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 20,
+  'exhibition' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibit->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibit.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibit.php:52]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibit.php:53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000016s ] 
+[ sql ] [ Mongo ] db.museum_exhibit.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(20); [ RunTime:0.000469s ]
+[ sql ] [ Mongo ] db.count({"count":"museum_exhibit","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:25:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/category/select
+[ info ] changzhou.admin.com/admin/museum/category/select [运行时间：0.010388s][吞吐率：96.27req/s] [内存消耗：753.20kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\museum\Category->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000020s ] 
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000365s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a325ef283278716e108e262"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000306s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a333861832787179207e182"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:50:18+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/select
+[ info ] changzhou.admin.com/admin/museum/exhibition/select [运行时间：0.010538s][吞吐率：94.89req/s] [内存消耗：773.57kb] [文件加载：58]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'page' => 1,
+  'limit' => 10,
+  'category' => 
+  array (
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php:53]
+[ error ] [8]未定义变量: map[/home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php:54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000020s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.find({"$and":[{"deleteAt":{"$exists":false}}]}).sort({"sort":-1}).limit(10); [ RunTime:0.000530s ]
+[ sql ] [ Mongo ] db.count({"count":"museum_exhibition","query":{"$and":[{"deleteAt":{"$exists":false}}]},"limit":0}); [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:50:18+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/category/select
+[ info ] changzhou.admin.com/admin/museum/category/select [运行时间：0.014628s][吞吐率：68.36req/s] [内存消耗：752.21kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Category->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000091s ] 
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000861s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a325ef283278716e108e262"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000364s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a333861832787179207e182"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:50:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/category/select
+[ info ] changzhou.admin.com/admin/museum/category/select [运行时间：0.008418s][吞吐率：118.80req/s] [内存消耗：752.21kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Category->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000020s ] 
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000374s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a325ef283278716e108e262"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000313s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a333861832787179207e182"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000249s ]
+---------------------------------------------------------------
+[ 2017-12-16T11:50:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/find
+[ info ] changzhou.admin.com/admin/museum/exhibition/find [运行时间：0.012817s][吞吐率：78.02req/s] [内存消耗：749.71kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'find',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  '_id' => '5a3377dd832787178a6c37c2',
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->find[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000019s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a3377dd832787178a6c37c2"}]}).limit(1); [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2017-12-16T14:58:23+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/user/permissions/menu
+[ info ] changzhou.admin.com/admin/user/permissions/menu [运行时间：0.015248s][吞吐率：65.58req/s] [内存消耗：561.53kb] [文件加载：47]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.permissions',
+    2 => 'menu',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\user\Permissions->menu[ /home/calf/admin/changzhou/application/admin/controller/user/Permissions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-16T14:58:23+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/category/select
+[ info ] changzhou.admin.com/admin/museum/category/select [运行时间：0.015196s][吞吐率：65.81req/s] [内存消耗：752.21kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.category',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  'tree' => true,
+)
+[ info ] [ RUN ] app\admin\controller\museum\Category->select[ /home/calf/admin/changzhou/application/admin/controller/museum/Category.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000021s ] 
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent":{"$exists":false}}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000512s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a325ef283278716e108e262"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000363s ]
+[ sql ] [ Mongo ] db.museum_category.find({"$and":[{"deleteAt":{"$exists":false}},{"parent.id":"5a333861832787179207e182"}]}).sort({"sort":-1}).limit(0); [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2017-12-16T14:58:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/museum/exhibition/find
+[ info ] changzhou.admin.com/admin/museum/exhibition/find [运行时间：0.007155s][吞吐率：139.76req/s] [内存消耗：749.71kb] [文件加载：55]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'museum.exhibition',
+    2 => 'find',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'changzhou.admin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => 'application/json',
+  'origin' => 'http://localhost:3000',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+  '_id' => '5a3377dd832787178a6c37c2',
+)
+[ info ] [ RUN ] app\admin\controller\museum\Exhibition->find[ /home/calf/admin/changzhou/application/admin/controller/museum/Exhibition.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000014s ] 
+[ sql ] [ Mongo ] db.museum_exhibition.find({"$and":[{"deleteAt":{"$exists":false}},{"_id":"5a3377dd832787178a6c37c2"}]}).limit(1); [ RunTime:0.000362s ]

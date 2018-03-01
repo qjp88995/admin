@@ -1,0 +1,22 @@
+{extend name="public/base" /}
+{block name="title"}搜索结果{/block}
+{block name="content"}
+    <div class="collection-box" style="margin-bottom: 8vw;">
+        <div style="position:relative;height:100vh;width:80%;margin:0 auto;background: #fff">
+            <a id="announcement" style="display: block;height: .5vw"></a>
+            <div id="announcementList"></div>
+        </div>
+    </div>
+{/block}
+{block name="babel"}
+<script type="text/babel">
+    ReactDOM.render(
+        <NewsList title='{$title}' />,
+        document.getElementById('announcementList')
+    );
+    ReactDOM.render(
+        <Nav />,
+        document.getElementById('nav')
+    );
+</script>
+{/block}

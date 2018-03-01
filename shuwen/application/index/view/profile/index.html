@@ -1,0 +1,75 @@
+{extend name="public/base" /}
+{block name="title"}概况{/block}
+{block name="style"}
+<style>
+    .main{
+        background: url('/static/media/2/2.jpg') no-repeat center top / 100% auto;
+    }
+</style>
+{/block}
+{block name="content"}
+    <div class="profile-intro">
+        <a id="intro"></a>
+        <div class="content">
+            <h4>{$intro.title}</h4>
+            <div style="text-indent: 2em;">
+            {$intro.content}
+            </div>
+        </div>
+    </div>
+    <div class="profile-organization">
+        <a id="organization"></a>
+        <div class="title"></div>
+        <div class="content">
+            <img src="{$organization->cover}" alt="" style="max-width: 100%;">
+        </div>
+    </div>
+    <div class="profile-information">
+        <a id="information"></a>
+        <div style="line-height: 2em;">
+            {$information->content}
+        </div>
+    </div>
+    <div class="profile-events">
+        <a id="events"></a>
+        <div class="title"></div>
+        <div id="eventsContent">
+            <div class="group">
+                {volist name="events" id="vo"}
+                <a href="/profile/events/{$vo._id}"><span>{$vo.year}</span></a>
+                {/volist}
+            </div>
+            <button class="left"></button>
+            <button class="right"></button>
+        </div>
+    </div>
+    <div class="profile-contact">
+        <a id="contact"></a>
+        <p style="font-size: 1.8vw;padding: 4vw 0;">{$contact.title}</p>
+        <p style="font-size: 1.2vw;">{$contact.address}</p>
+        <p style="font-size: 1.2vw;padding: 3vw 0;">{$contact.phone}</p>
+    </div>
+    <div class="profile-question">
+        <a id="question"></a>
+        <div class="title"></div>
+        <div class="content">
+            {volist name="question.questions" id="vo"}
+            <p title="{$vo.question}">
+                <a href="/question#{$vo.target}">{$vo.question}</a>
+            </p>
+            {/volist}
+        </div>
+    </div>
+{/block}
+{block name="label"}
+<script type="text/babel">
+    ReactDOM.render(
+        <EventsList />,
+        document.getElementById('eventsContent')
+    );
+    ReactDOM.render(
+        <Nav />,
+        document.getElementById('nav')
+    );
+</script>
+{/block}

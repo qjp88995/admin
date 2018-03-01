@@ -1,0 +1,34 @@
+{extend name="public/base" /}
+{block name="title"}{$detail.title}{/block}
+{block name="content"}
+    <div class="collection-box">
+        <div id="detail" class="book-style-1">
+            <div class="book-style-2">
+                <div style="width: 85%;margin:0 auto 5vw;text-align: center">
+                    <div class="cover" style="overflow: hidden;">
+                        <img src="{$detail['cover']?$detail['cover']:''}" alt="{$detail.title}" style="max-width: 100%;">
+                    </div>
+                    <h1 style="margin: 1vw 0;font-size: 2vw;font-weight: 500;">
+                        {$detail.title}
+                    </h1>
+                    <p>
+                        <span style="border-bottom: 1px solid #ccc;display: inline-block;height: 2vw;">
+                        作者：{$detail.author?$detail.author:'佚名'}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$detail.createAt}
+                        </span>
+                    </p>
+                    <div style="margin-top: 4vw;text-align: left;font-size: 1.1vw;color:rgb(85,85,85);text-indent: 2em;">
+                        {$detail['content']?$detail['content']:''}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{/block}
+{block name="babel"}
+<script type="text/babel">
+    ReactDOM.render(
+        <Nav />,
+        document.getElementById('nav')
+    );
+</script>
+{/block}

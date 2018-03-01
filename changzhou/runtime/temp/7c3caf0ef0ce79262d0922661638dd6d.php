@@ -1,0 +1,24 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:66:"/home/calf/admin/changzhou/application/admin/view/index/index.html";i:1516792504;}*/ ?>
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="/static/admin/manifest.json">
+    <link rel="shortcut icon" href="/static/admin/favicon.ico">
+    <title>常州博物馆后台</title>
+    <script>
+    window._config = { _prefix: { api: "<?php echo config('website.prefix'); ?>/admin", link: "/admin", upload: "<?php echo config('website.prefix'); ?>" } }
+    </script>
+    <link href="/static/css/admin.css" rel="stylesheet">
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="text/javascript" src="/static/js/admin.js"></script>
+</body>
+
+</html>

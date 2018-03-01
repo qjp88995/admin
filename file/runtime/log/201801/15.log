@@ -1,0 +1,32 @@
+---------------------------------------------------------------
+[ 2018-01-15T12:01:34+08:00 ] 192.168.10.112 220.248.76.158 GET /file/
+[ info ] shuwen.c.3lengjing.com:18800/file/ [运行时间：0.038395s][吞吐率：26.05req/s] [内存消耗：514.76kb] [文件加载：54]
+[ info ] [ LANG ] /home/calf/admin/file/../thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shuwen.c.3lengjing.com:18800',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://shuwen.c.3lengjing.com:18800/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=15e033584bd57f-03b3399b7b7277-24414032-100200-15e033584be636',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/file/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/calf/admin/file/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(/home/calf/admin/file/application/../runtime/temp/04514725b3f5c4f926c7aac44baf5328.php): failed to open stream: Permission denied[/home/calf/admin/thinkphp/library/think/template/driver/File.php:32]
