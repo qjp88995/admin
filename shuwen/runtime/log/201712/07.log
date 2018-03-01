@@ -1,0 +1,153 @@
+---------------------------------------------------------------
+[ 2017-12-07T16:14:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] shuwen.admin.com/ [运行时间：0.141157s][吞吐率：7.08req/s] [内存消耗：782.65kb] [文件加载：56]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shuwen.admin.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/62.0.3202.94 Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/shuwen/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ VIEW ] /home/calf/admin/shuwen/application/index/view/index/index.html [ array (
+  0 => 'information',
+  1 => 'contact',
+  2 => 'notics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000502s ] 
+[ sql ] [ Mongo ] db.profile.find({"$and":[{"deleteAt":{"$exists":false}},{"name":"information"}]}).limit(1); [ RunTime:0.001887s ]
+[ sql ] [ Mongo ] db.profile.find({"$and":[{"deleteAt":{"$exists":false}},{"name":"contact"}]}).limit(1); [ RunTime:0.000218s ]
+[ sql ] [ Mongo ] db.news.find({"$and":[{"deleteAt":{"$exists":false}},{"category.name":"announcement"}]}).limit(8); [ RunTime:0.000817s ]
+---------------------------------------------------------------
+[ 2017-12-07T16:14:59+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] shuwen.admin.com/ [运行时间：0.014176s][吞吐率：70.54req/s] [内存消耗：761.59kb] [文件加载：56]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shuwen.admin.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/62.0.3202.94 Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/shuwen/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ VIEW ] /home/calf/admin/shuwen/application/index/view/index/index.html [ array (
+  0 => 'information',
+  1 => 'contact',
+  2 => 'notics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000076s ] 
+[ sql ] [ Mongo ] db.profile.find({"$and":[{"deleteAt":{"$exists":false}},{"name":"information"}]}).limit(1); [ RunTime:0.000865s ]
+[ sql ] [ Mongo ] db.profile.find({"$and":[{"deleteAt":{"$exists":false}},{"name":"contact"}]}).limit(1); [ RunTime:0.000216s ]
+[ sql ] [ Mongo ] db.news.find({"$and":[{"deleteAt":{"$exists":false}},{"category.name":"announcement"}]}).limit(8); [ RunTime:0.000200s ]
+---------------------------------------------------------------
+[ 2017-12-07T16:18:54+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] shuwen.admin.com/ [运行时间：0.011021s][吞吐率：90.73req/s] [内存消耗：760.88kb] [文件加载：56]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shuwen.admin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/62.0.3202.94 Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/shuwen/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ VIEW ] /home/calf/admin/shuwen/application/index/view/index/index.html [ array (
+  0 => 'information',
+  1 => 'contact',
+  2 => 'notics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000028s ] 
+[ sql ] [ Mongo ] db.profile.find({"$and":[{"deleteAt":{"$exists":false}},{"name":"information"}]}).limit(1); [ RunTime:0.000463s ]
+[ sql ] [ Mongo ] db.profile.find({"$and":[{"deleteAt":{"$exists":false}},{"name":"contact"}]}).limit(1); [ RunTime:0.000327s ]
+[ sql ] [ Mongo ] db.news.find({"$and":[{"deleteAt":{"$exists":false}},{"category.name":"announcement"}]}).limit(8); [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2017-12-07T16:31:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] shuwen.admin.com/ [运行时间：0.013651s][吞吐率：73.26req/s] [内存消耗：760.57kb] [文件加载：56]
+[ info ] [ LANG ] /home/calf/admin//thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shuwen.admin.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__utma=263463772.1899665212.1506839425.1508554965.1508632765.5; __utmz=263463772.1506839425.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/calf/admin/shuwen/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT \think\mongo\Connection
+[ info ] [ VIEW ] /home/calf/admin/shuwen/application/index/view/index/index.html [ array (
+  0 => 'information',
+  1 => 'contact',
+  2 => 'notics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000035s ] 
+[ sql ] [ Mongo ] db.profile.find({"$and":[{"deleteAt":{"$exists":false}},{"name":"information"}]}).limit(1); [ RunTime:0.000580s ]
+[ sql ] [ Mongo ] db.profile.find({"$and":[{"deleteAt":{"$exists":false}},{"name":"contact"}]}).limit(1); [ RunTime:0.000272s ]
+[ sql ] [ Mongo ] db.news.find({"$and":[{"deleteAt":{"$exists":false}},{"category.name":"announcement"}]}).limit(8); [ RunTime:0.000246s ]

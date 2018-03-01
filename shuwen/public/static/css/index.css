@@ -1,0 +1,591 @@
+html,
+body,
+div,
+ul,
+p,
+input,
+textarea,
+h1,h2,h3,h4,h5,h6,
+button,
+hr,
+span,
+img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+textarea:focus,input:focus,button:focus{
+    border: none;
+    outline: none;
+}
+:root {
+  --FootColor: rgb(77,24,23);
+}
+@keyframes navmove
+{
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0);}
+}
+@font-face {
+    font-family: fzls;
+    src: url('/static/fzls.ttf');
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+}
+.a-line{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.clear{
+    clear: both;
+}
+.index-main>.box-1{
+    width:100vw;
+    height: 50vw;
+}
+
+.index-main>.box-1>div{
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.index-main>.box-1>div:nth-child(1){
+    position: relative;
+    background-image: url('/static/media/1/zuo.jpg');
+}
+.index-main>.box-1>div:nth-child(2){
+    padding: 8vw 0;
+    text-align: center;
+    transition: background 1s;
+    background-image: url('/static/media/index_right_bg.jpg');
+}
+
+.index-main>.box-1>div:nth-child(1)>img{
+    position: absolute;
+    width: 5.6%;
+    top: 21.8%;
+    left: calc((100% - 5.6%) / 2);
+}
+.index-main>.box-1>div:nth-child(1)>div{
+    position: absolute;
+    width: 100%;
+    height: 13.6%;
+    top: 68.6%;
+    left: 0;
+    text-align: center;
+}
+.index-main>.box-1>div:nth-child(1)>div>div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5.6%;
+    width: 18px;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    line-height: 1.6vw;
+    font-size: 1.8vw;
+    font-family: fzls;
+}
+.index-main>.box-1>div:nth-child(1)>div>div:nth-child(1){
+    line-height: 3.2vw;
+}
+
+.box-2{
+    position: absolute;
+    top: 15.75vw;
+    left: 0;
+    width: 100vw;
+    height: 2.4vw;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgb(168,147,102);
+}
+.index-main>.box-1>div:nth-child(1)>div>div .box-2{
+    display: none;
+}
+/*.index-main>.box-1>div:nth-child(1)>div>div:hover .box-2{
+    display: block;
+}*/
+.box-2>a{
+    display: inline-block;
+    width: 11.6%;
+    height: 100%;
+    line-height: 2.4vw;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-family: fzls;
+}
+.box-2>a:hover{
+    color: white;
+    transition: background 1s;
+    background: url('/static/media/1/yijidaohangdi.jpg') no-repeat center / cover;
+}
+.box-2>a:hover>span{
+    display: block;
+    animation: bounceIn 1s;
+}
+
+.index-main>.box-3{
+    margin-top: 4vw;
+    position: relative;
+    background: url('/static/media/1/box-3.jpg') no-repeat center / 100%;
+    height: 74.5vw;
+}
+
+.index-main>.box-3>p{
+    position: absolute;
+    width: 27.4%;
+    margin: 54% 36.3% 0;
+    color: white;
+    font-size: 1.3vw;
+    line-height: 2.5vw;
+}
+
+.index-main>.box-4{
+    position: relative;
+    height: 16.6vw;
+    background: url('/static/media/1/yupingxiaodi.jpg') no-repeat center / 100%;
+}
+.index-main>.box-4>a{
+    position: absolute;
+    display: inline-block;
+    width: 9.5%;
+    top: 40%;
+    right: 12.5%;
+}
+.index-main>.box-4>a>img{
+    width: 100%;
+}
+.index-main>.box-5{
+    position: relative;
+}
+.index-main>.box-5>.zhuye{
+    position: absolute;
+    top: -13vw;
+    width: 100%;
+    background: url('/static/media/1/zhuye.png') no-repeat right / auto 100%;
+    height: 16vw;
+}
+.index-main>.box-5>.title{
+    background: url('/static/media/1/gonggao.jpg') no-repeat center / auto 100%;
+    width: 100%;
+    height: 4vw;
+    margin-top: 4vw;
+}
+.index-main>.box-5>.title>img{
+    position: absolute;
+    width: 10.4%;
+    top: -10%;
+    left: 56%;
+}
+
+.index-main>.box-5>.group{
+    width: 76%;
+    margin: 3vw 12% 0;
+}
+.index-main>.box-5>.group .item{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.index-main>.box-5>.group .item>p{
+    position: relative;
+    margin-left: 2.5vw;
+    padding-right: 26%;
+    font-size: 1.3vw;
+    height: 2vw;
+    line-height: 2vw;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.index-main>.box-5>.group .item:before{
+    position: absolute;
+    content: '';
+    display: block;
+    background: url(/static/media/1/dian.jpg) no-repeat center / 100% auto;
+    width: 1vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.index-main>.box-5>.group .item>p:after{
+    position: absolute;
+    content: attr(time);
+    display: block;
+    right: 0;
+    top: 0;
+    padding-right:6%;
+    vertical-align: middle;
+}
+.index-main>.box-5>.more{
+    width: 100%;
+    margin-top: 3vw;
+    text-align: center;
+}
+
+.index-main>.box-6{
+    position: relative;
+    margin-top: 4%;
+    background: url('/static/media/index_addr.jpg') no-repeat center / 100% auto;
+    height: 23vw;
+}
+
+.index-main>.box-7{
+    position: relative;
+    margin-top: 4vw;
+    background: var(--FootColor);
+    height: 12.55vw;
+}
+
+.index-main>.box-7>.logo{
+    position: absolute;
+    width: 100%;
+    background: url('/static/media/1/zuidilogo.png') no-repeat center / auto 100%;
+    height: 9.2vw;
+    top: -50%;
+}
+.index-main>.box-7>p{
+    padding-top: 7vw;
+    text-align: center;
+    color: white;
+    font-size: 1.2vw;
+}
+.index-main>.search{
+    position: absolute;
+    top: 24px;
+    left: 26px;
+}
+.index-main>.search>div{
+    display: inline-block;
+    padding: 0 5px;
+    border-left: 2px solid rgba(255,255,255,.5);
+    border-right: 2px solid rgba(255,255,255,.5);
+}
+.index-main>.search>div>button{
+    width: 16px;
+    height: 16px;
+    background: url('/static/media/1/search.png') no-repeat center / auto 100%;
+    cursor: pointer;
+    border: none;
+    vertical-align: middle;
+}
+.index-main>.search>div>input{
+    display: none;
+    width: 150px;
+    height: 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: rgba(0,0,0,.7);
+}
+@keyframes mainmove
+{
+    from {transform: translateX(20vw);opacity: 0}
+    to {transform: translateX(0);opacity: 1}
+}
+/* 简介 */
+.main{
+    position: relative;
+    margin-left: 8.6%;
+    width: 91.4%;
+    animation: fadeInRight 2s;
+}
+.profile-intro{
+    position: relative;
+    width: 100%;
+    padding-top: 20vw;
+}
+.profile-intro>.content{
+    position: relative;
+    background: url('/static/media/2/7.png') no-repeat center top / 100%;
+    width: 72.8%;
+    height: 41vw;
+    margin: 0 auto;
+    color: rgb(85,85,85);
+}
+.profile-intro>.content:before{
+    content: '';
+    background: url('/static/media/2/1.png') no-repeat center top / 100%;
+    display: block;
+    position: absolute;
+    top: -7%;
+    left: 4px;
+    width: 18%;
+    height: 32%;
+    animation: rotateIn 2s ease 1s 1 normal
+}
+.profile-intro>.content>h4{
+    text-align: center;
+    width: 100%;
+    padding: 6% 10% 0;
+    font-weight: 500;
+    font-size: 2vw;
+}
+.profile-intro>.content>div{
+    margin: 2vw 10% 0;
+    width: 80%;
+    height: 66%;
+    font-size: 1.3vw;
+    overflow: auto;
+}
+
+.profile-organization{
+    position: relative;
+    width: 100%;
+}
+.profile-organization>.title{
+    margin-top: 3vw;
+    background: url('/static/media/2/8.jpg') no-repeat center / auto 100%;
+    width: 100%;
+    height: 4.5vw;
+}
+.profile-organization>.content{
+    margin: 2vw 0 4vw;
+    text-align: center;
+}
+.profile-information{
+    position: relative;
+    width: 100%;
+    background: rgb(129,129,128);
+    box-shadow: 0 0 5px 0 rgb(168,147,102);
+}
+.profile-information>div{
+    height: 81.68%;
+    padding: 5vw 12vw;
+    color: white;
+    background: url('/static/media/profile_info.jpg') no-repeat center bottom / 100%;
+}
+.profile-events{
+    position: relative;
+    width: 100%;
+    background: white;
+}
+.profile-events>.title{
+    margin-top: 4vw;
+    background: url('/static/media/2/9.jpg') no-repeat center / auto 100%;
+    width: 100%;
+    height: 4.5vw;
+}
+.profile-events>.content{
+    position: relative;
+    margin: 3vw auto;
+    width: 64%;
+    text-align: center;
+}
+
+.profile-contact{
+    width: 100%;
+    height: 22vw;
+    background: url('/static/media/profile_contact.jpg') no-repeat center / 100% auto;
+    color: white;
+    text-align: center;
+}
+.profile-question{
+    position: relative;
+    width: 100%;
+    background: white;
+}
+.profile-question>.title{
+    margin-top: 4vw;
+    background: url('/static/media/2/10.jpg') no-repeat center / auto 100%;
+    width: 100%;
+    height: 4.5vw;
+}
+.profile-question>.content{
+    margin: 4vw auto;
+    width: 37.4%;
+}
+.profile-question>.content>p{
+    font-size: 1.3vw;
+    line-height: 4vw;
+    color: rgb(85,85,85);
+    border-bottom: 1px solid rgb(187,187,187);
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.footer{
+    margin-top: 8vw;
+    position: relative;
+    width: 100%;
+    height: 10vw;
+    background: var(--FootColor);
+}
+.footer>.logo{
+    position: absolute;
+    width: 100%;
+    background: url('/static/media/1/zuidilogo.png') no-repeat center / auto 100%;
+    height: 8vw;
+    top: -4vw;
+}
+.main>.footer>p{
+    width: 100%;
+    padding-top: 6vw;
+    text-align: center;
+    color: white;
+    font-size: 1.2vw;
+}
+
+/* 左边侧栏 */
+@keyframes navChildShow
+{
+    from {max-width: 0;}
+    to {max-width: 100%;}
+}
+
+#nav>.nav>.group>.item{
+    width: 100%;
+    height: 3.5vw;
+    line-height: 3.5vw;
+    margin: 10px 0;
+}
+#nav>.nav>.group>.item:hover{
+    background: rgb(177,141,100);
+}
+#nav>.nav>.group>.item>.children{
+    display: none;
+    position: absolute;
+    width: 100%;
+    padding-top: 18.2vw;
+    top: 0;
+    left: 100%;
+    height: 100vw;
+    background: inherit;
+    animation: fadeIn .5s;
+    -moz-animation: fadeIn .5s; /* Firefox */
+    -webkit-animation: fadeIn .5s;  /* Safari 和 Chrome */
+    -o-animation: fadeIn .5s;   /* Opera */
+    overflow: hidden;
+}
+#nav>.nav>.group>.item>.children>.item{
+    width: 100%;
+    height: 3.5vw;
+    line-height: 3.5vw;
+    margin: 10px 0;
+}
+#nav>.nav>.group>.item:hover>.children{
+    display: block;
+}
+
+/* 左边侧栏　END */
+
+
+/* 藏品欣赏 */
+.collection-box{
+    width: 100%;
+    min-height: 50vw;
+    padding-top: 27.74%;
+    background: url('/static/media/cp/bg.jpg') no-repeat center top / 100% auto;
+}
+.collection-box #banner{
+    position: relative;
+    margin: 0 auto;
+    width: 85%;
+    padding-top: 40%;
+}
+.collection-box>#list,.collection-box>#detail{
+    position: relative;
+    margin: 6.5% auto 13.96%;
+    width: 85%;
+}
+/*　藏品欣赏 end　*/
+
+.book-style-1{
+    background:white;
+    box-shadow:0 0 4.5px 0 rgb(164,140,103);
+}
+.book-style-1:before{
+    position: absolute;
+    right: -7vw;
+    bottom: 0;
+    content: '';
+    background: url('/static/media/2/1.png') no-repeat center / 100%;
+    display: block;
+    width: 10vw;
+    height: 10vw;
+}
+.book-style-2{
+    position: relative;
+    top: -0.5vw;
+    left: 0.5vw;
+    background:white;
+    padding: 4vw 0 8vw;
+    box-shadow:0 0 4.5px 0 rgb(164,140,103);
+}
+.book-style-2:after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: url('/static/media/shujiao.png') no-repeat center / 100%;
+    display: block;
+    width: 16vw;
+    height: 10vw;
+}
+
+.calendar-btn{
+    background: none；
+    color: white;
+    position: absolute;
+    top: .4vw;
+    font-size: 2vw;
+    cursor: pointer
+}
+.calendar-btn:hover{
+    color: rgb(198,156,109)
+}
+
+.calendar-item{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    display: inline-block;
+    padding: 1vw .2vw 0;
+    margin: 0 0.6%;
+    width: 5.4%;
+    height: 6.5vw;
+    text-align: center;
+    font-size: 1.6vw;
+    border-radius: 1vw;
+    border: 1px solid transparent;
+    vertical-align: top;
+}
+.calendar-item>.week{
+    display: none;
+}
+.calendar-item.active{
+    background: rgb(177,141,100);
+}
+.calendar-item:hover{
+    color: rgb(198,156,109);
+    border: 1px solid rgb(198,156,109);
+}
+.calendar-item:hover>.week{
+    display: block;
+}
+.calendar-item.active:hover{
+    color: white;
+    /*border: 1px solid transparent;*/
+}
