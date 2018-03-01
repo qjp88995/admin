@@ -1,0 +1,10 @@
+/composer.lock
+/vendor
+/test
+/tests
+/runtime
+/static
+/uploads
+/excel
+.idea
+.DS_Store
